@@ -1,10 +1,8 @@
-# Hello
-
-my name is someoneadsf
-
-## asdf
-asdf
-
+---
+theme: seriph
 ---
 
-asdf
+# Classical Aesthetics
+
+## Renaissance
+
