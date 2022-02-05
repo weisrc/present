@@ -10,4 +10,4 @@ This is not private because I want to use GitHub Pages.
 
 # License
 
-MIT, even though it ain't code :)
+MIT, even though it ain't truly software :)
