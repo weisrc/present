@@ -2,7 +2,7 @@
 	"private": true,
 	"scripts": {
 		"ci": "yarn install --immutable --immutable-cache --check-cache",
-		"build": "build(){ cd $1; slidev build --out ../docs/$1; }; build",
+		"build": "build(){ cd $1; slidev build --out ../docs/$1 --base present/$1; }; build",
 		"dev": "dev(){ cd $1; slidev --open; }; dev"
 	},
 	"dependencies": {
