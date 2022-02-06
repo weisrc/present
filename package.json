@@ -1,15 +1,17 @@
 {
+	"name": "classical-aesthetics",
 	"private": true,
 	"scripts": {
 		"ci": "yarn install --immutable --immutable-cache --check-cache",
 		"build": "build(){ cd $1; slidev build --out ../docs/$1 --base present/$1; }; build",
-		"dev": "dev(){ cd $1; slidev --open; }; dev",
-    "readme": "cp README.md docs"
+		"dev": "dev(){ cd $1; slidev --remote; }; dev",
+		"start": "yarn dev classical-aesthetics",
+		"readme": "cp README.md docs"
 	},
+	"heroku-run-build-script": false,
 	"dependencies": {
 		"@slidev/cli": "^0.28.2",
 		"@slidev/theme-default": "*",
 		"@slidev/theme-seriph": "*"
-	},
-	"name": "classical-aesthetics"
+	}
 }
