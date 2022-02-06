@@ -45,7 +45,7 @@ Europe (France, Holland, Italy)
 
 ---
 layout: cover
-background: /main.jpg
+background: main.jpg
 ---
 
 <v-clicks>
