@@ -4,8 +4,7 @@
 	"scripts": {
 		"ci": "yarn install --immutable --immutable-cache --check-cache",
 		"html": "html(){ cd $1; slidev build --out ../docs/$1 --base present/$1; }; html",
-		"dev": "dev(){ cd $1; slidev --remote; }; dev",
-		"start": "yarn dev classical-aesthetics",
+		"start": "start(){ cd $1; slidev --remote -p $PORT; }; start",
 		"readme": "cp README.md docs"
 	},
 	"dependencies": {
