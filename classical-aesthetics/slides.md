@@ -140,7 +140,7 @@ https://yaterra.com/2016/01/28/the-last-supper/
 
 https://www.youtube.com/watch?v=iV6_wTrkd70
 
-https://www.youtube.com/watch?v=Wn5Ad3kJIuA&t=593s
+https://www.youtube.com/watch?v=Wn5Ad3kJIuA
 
 **Images** (in https://github.com/weisrc/present/tree/main/classical-aesthetics/public)
 
