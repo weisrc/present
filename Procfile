@@ -1,1 +1,1 @@
-web: yarn dev classical-aesthetics
+web: yarn start classical-aesthetics
