@@ -45,7 +45,7 @@ Europe (France, Holland, Italy)
 
 ---
 layout: cover
-background: /assets/main.jpg
+background: /main.jpg
 ---
 
 <v-clicks>
@@ -71,7 +71,7 @@ layout: center
 img { filter: none; } /* color analysis: overview */
 ```
 
-<img src="/assets/main.jpg" style="filter: none;"/>
+<img src="/main.jpg" style="filter: none;"/>
 
 <!--
 Unsaturated (degraded painting)
@@ -83,7 +83,7 @@ Unsaturated (degraded painting)
 img { filter: saturate(1000%); } /* few hues used, warm */
 ```
 
-<img src="/assets/main.jpg" style="filter: saturate(1000%);"/>
+<img src="/main.jpg" style="filter: saturate(1000%);"/>
 
 <!--
 The temperature is warm
@@ -98,7 +98,7 @@ Cold if only vivid colors are considered (high saturation and light)
 ```css
 img { filter: saturate(0%); } /* chiaroscuro */
 ```
-<img src="/assets/main.jpg" style="filter: saturate(0%);"/>
+<img src="/main.jpg" style="filter: saturate(0%);"/>
 
 <!-- 
 Low value (darkness of the room) 
@@ -109,23 +109,23 @@ Low value (darkness of the room)
 ```css
 img { transform: scale(4); } /* sfumato */
 ```
-<img src="/assets/sfumato.png"/>
+<img src="/sfumato.png"/>
 
 ---
 
-<img src="/assets/groups.jpg"/>
+<img src="/groups.jpg"/>
 
 ---
 
-<img src="/assets/grid.jpg"/>
+<img src="/grid.jpg"/>
 
 ---
 
-<img src="/assets/lines.jpg"/>
+<img src="/lines.jpg"/>
 
 ---
 
-<img src="/assets/triangle.jpg"/>
+<img src="/triangle.jpg"/>
 
 ---
 
