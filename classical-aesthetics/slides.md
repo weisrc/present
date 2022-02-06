@@ -63,7 +63,7 @@ Around 1495–1498 (3 years to complete)
 layout: center
 ---
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Hsl-hsv_models.svg" class="h-100"/>
+<img src="/hsv.svg" class="h-100"/>
 
 ---
 
