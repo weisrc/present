@@ -88,10 +88,6 @@ img { filter: none; } /* context & symbols & color overview */
 
 <img src="/main.jpg" style="filter: none;"/>
 
-<!--
-Unsaturated (degraded painting)
--->
-
 ---
 
 ```css
@@ -100,24 +96,12 @@ img { filter: saturate(1000%); } /* few hues used, warm */
 
 <img src="/main.jpg" style="filter: saturate(1000%);"/>
 
-<!--
-The temperature is warm
-
-Mostly warm if the room is considered
-
-Cold if only vivid colors are considered (high saturation and light) 
--->
-
 ---
 
 ```css
 img { filter: saturate(0%); } /* chiaroscuro & shape */
 ```
 <img src="/main.jpg" style="filter: saturate(0%);"/>
-
-<!-- 
-Low value (darkness of the room) 
--->
 
 ---
 
