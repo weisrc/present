@@ -17,7 +17,7 @@ jobs:
       - name: Setup and build
         run: |
           yarn ci
-          yarn build classical-aesthetics
+          yarn html classical-aesthetics
           yarn readme
           git add -f docs
       - name: Push
