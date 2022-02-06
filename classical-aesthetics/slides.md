@@ -45,7 +45,7 @@ Europe (France, Holland, Italy)
 
 ---
 layout: cover
-background: main.jpg
+background: room.jpg
 ---
 
 <v-clicks>
@@ -55,20 +55,35 @@ background: main.jpg
 
 880 cm x 460 cm (Oil paint mural)
 
-Around 1495–1498 (3 years to complete)
+c. 1495–1498 in Milan, Italy
 
 </v-clicks>
 
 ---
-layout: center
+layout: two-cols
 ---
 
+# Introduction
+
+- Context & Symbols
+
+# Analysis
+- Plane
+- Color
+    - Hue
+    - Value (Chiaroscuro)
+    - Soft edges (Sfumato)
+- Shape
+- Composition
+- Contrasts
+
+::right::
 <img src="/hsv.svg" class="h-100"/>
 
 ---
 
 ```css
-img { filter: none; } /* color analysis: overview */
+img { filter: none; } /* context & symbols & color overview */
 ```
 
 <img src="/main.jpg" style="filter: none;"/>
@@ -96,7 +111,7 @@ Cold if only vivid colors are considered (high saturation and light)
 ---
 
 ```css
-img { filter: saturate(0%); } /* chiaroscuro */
+img { filter: saturate(0%); } /* chiaroscuro & shape */
 ```
 <img src="/main.jpg" style="filter: saturate(0%);"/>
 
@@ -129,4 +144,26 @@ img { transform: scale(4); } /* sfumato */
 
 ---
 
+**References**
+
 https://www.history.com/topics/renaissance/renaissance
+
+https://www.businessinsider.com/last-supper-leonardo-da-vinci-2017-3
+
+https://www.biblegateway.com/passage/?search=John%2013%3A21-30&version=ESV
+
+https://yaterra.com/2016/01/28/the-last-supper/
+
+https://www.youtube.com/watch?v=iV6_wTrkd70
+
+https://www.youtube.com/watch?v=Wn5Ad3kJIuA&t=593s
+
+**Images** (in https://github.com/weisrc/present/tree/main/classical-aesthetics/public)
+
+`room.jpg` by https://joyofmuseums.com under CC.
+
+`hsv.jpg` by Jacob Rus (wikipedia) under CC.
+
+`main.jpg` is public domain.
+
+All other images under MIT license of this repository.
