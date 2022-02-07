@@ -5,7 +5,8 @@
 		"ci": "yarn install --immutable --immutable-cache --check-cache",
 		"html": "html(){ cd $1; slidev build --out ../docs/$1 --base present/$1; }; html",
 		"start": "start(){ cd $1; slidev --remote; }; start",
-		"readme": "cp README.md docs"
+		"readme": "cp README.md docs",
+		"404": "fn(){ cp docs/$1/404.html docs; }; fn"
 	},
 	"dependencies": {
 		"@slidev/cli": "^0.28.2",

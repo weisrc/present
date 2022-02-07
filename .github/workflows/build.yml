@@ -19,6 +19,7 @@ jobs:
           yarn ci
           yarn html classical-aesthetics
           yarn readme
+          yarn 404 classical-aesthetics
           git add -f docs
       - name: Push
         env:
